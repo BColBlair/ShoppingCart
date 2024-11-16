@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="./assets/styles.css">
+</head>
+<body>
+    <h1>Shopping Cart</h1>
+    <div id="product-list"></div>
+    <h2>Your Cart</h2>
+    <div id="cart-list"></div>
+    <div id="total-display"></div>
+    <input type="number" id="payment-input" placeholder="Enter payment">
+    <button onclick="pay(Number(document.getElementById('payment-input').value))">Pay</button>
+    <script src="./assets/script.js"></script>
+</body>
+</html>
